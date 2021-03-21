@@ -5,9 +5,6 @@ const router = Router();
 
 const movies = require('../simple.json');
 
-
-
-
 router.get('/',(req,res)=>{
     res.json(movies)
 })
